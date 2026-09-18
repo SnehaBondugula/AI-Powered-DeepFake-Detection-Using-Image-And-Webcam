@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+}
+.upload-section, .webcam-section {
+    margin: 20px 0;
+    text-align: center;
+}
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background: #0056b3;
+}

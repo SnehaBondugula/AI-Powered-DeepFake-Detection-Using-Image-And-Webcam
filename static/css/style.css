@@ -1,0 +1,84 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url("{{ url_for('static', filename='images/ai-background.jpg') }}") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+/* Container styling with transparency */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #00bcd4; /* Cyan for a tech look */
+}
+
+/* Upload and webcam sections */
+.upload-section, .webcam-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Button styling */
+button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #0056b3;
+}
+
+/* Image resizing for the result page */
+.resized-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 2px solid #00bcd4;
+}
+
+/* Error and result messages */
+.error {
+    color: #ff4c4c;
+    text-align: center;
+    margin-top: 20px;
+}
+.result {
+    color: #4caf50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Link styling */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #5a6268;
+}
