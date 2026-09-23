@@ -1,5 +1,5 @@
 Flask
-tensorflow-intel==2.18.0
+tensorflow==2.18.0
 keras==3.8.0
 opencv-python
 numpy==1.26.4
@@ -10,3 +10,4 @@ scikit-learn==1.6.1
 flask_cors
 flask_limiter
 matplotlib==3.10.1
+gunicorn
